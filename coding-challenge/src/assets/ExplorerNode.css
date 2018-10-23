@@ -1,0 +1,30 @@
+.node {
+  white-space: nowrap;
+  padding: 5px;
+  font-size: 14px;
+  cursor: default;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.node:hover {
+  background-color: rgb(222, 241, 222);
+}
+
+.selected {
+  background-color: #4285F4;
+  color: #FFFFFF;
+}
+
+.action-icon {
+  cursor: pointer;
+  position: relative;
+  top: 2px;
+}
+
+.node-icon-spacer {
+  padding: 0 7px;
+  position: relative;
+  top: 1px;
+}

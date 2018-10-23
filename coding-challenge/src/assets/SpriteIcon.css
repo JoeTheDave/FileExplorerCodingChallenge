@@ -1,0 +1,15 @@
+.sprite {
+  object-fit: none;
+  width: 14px;
+  height: 14px;
+}
+
+.folder { object-position: 0 0; }
+.private-folder { object-position: -14px 0; }
+.file { object-position: -28px 0; }
+.close { object-position: -42px 0; }
+.expand-dark { object-position: -56px 0; }
+.collapse-dark { object-position: -70px 0; }
+.expand-light { object-position: -84px 0; }
+.collapse-light { object-position: -98px 0; }
+.blank { object-position: -112px 0; }
